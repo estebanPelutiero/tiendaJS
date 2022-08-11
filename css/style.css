@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgSizer {
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    font-weight: bold;
+    margin: 0 15px 0 15px;
+}
+
+.anchorStyle {
+    list-style: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.anchorStyle:hover {
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.navBarMod {
+    padding: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/18/20/29/circuitry-3163436__340.png);
+    background-size: auto;
+}
+
+.logoSizer {
+    width: 60px;
+    height: 60px;
+}
+
+.container-modified {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.cardSizer {
+    width: 22.8%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.card-shadow {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.377);
+    margin: 15px;
+}
+
+.principalBackground {
+    background-color: #005b9ce5;
+}
+
+.btnStyle {
+    background-color: black;
+    border: none;
+    font-size: small;
+}
+
+.btnStyle:hover {
+    background-color: rgb(87, 87, 87);
+}
+
+.btnStyle:focus {
+    background-color: black;
+}
